@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/font/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+.top-bar{
+    width: auto;
+    height: 5em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-and-heading{
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    padding: 0.8em;
+}
+.logo-and-heading span h1{
+    font-family: 'Roboto', sans-serif;
+}
+.date-time{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-items: end;
+    padding: 0.8em;
+}
