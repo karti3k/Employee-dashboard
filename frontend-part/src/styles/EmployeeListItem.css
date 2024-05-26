@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #f0f0f0; 
+    background-color: #ffffff; 
     padding: 1.8em;
     height: 2em;
     width: auto;
@@ -12,11 +12,11 @@
     border-bottom: 0.1px solid rgba(192, 192, 192, 0.405);
 }
 .employee-list-item.even {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 .employee-list-item.odd {
-    background-color: #ffffff;
+    background-color: #f9fafc;
 }
 .rank-icon{
     width: 1.4em;

@@ -24,6 +24,10 @@
 }
 .logo-and-heading span h1{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+.logo-and-heading span img{
+    width: 3em;
 }
 .date-time{
     display: flex;
