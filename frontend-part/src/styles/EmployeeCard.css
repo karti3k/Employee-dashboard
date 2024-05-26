@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/font/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../assets/font/Roboto-Thin.ttf');
+    font-weight: 100;
+}
+.employee-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 23%;
+    height: 60vh;
+    /* background-color: white; */
+    background: linear-gradient(90deg, rgba(146, 207, 245, 0.148),white,rgba(184, 122, 251, 0.148));
+    margin: 0.8em;
+    box-shadow: 6px 6px 14px #1c0ac010;
+    border: 0.1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 12px;
+    padding: 0.5em;
+    gap: 0.2em;
+}
+.emp-img{
+    width: 100%;
+    border-radius: 3px;
+}
+.employee-card h2{
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #1e40ae;
+}
+.employee-card h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+.employee-card p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.65em;
+}
+.eom-icon{
+    width: 70%;
+    height: 85%;
+}

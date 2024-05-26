@@ -34,7 +34,7 @@ const TopBar = () => {
 // Logic for setting up current date and time ENDs here
 
     return (
-        <nav className='top-bar'>
+        <header className='top-bar'>
             <div className='logo-and-heading'>
                 <span>
                     <img src={companylogo} alt="Company Logo"/>
@@ -47,7 +47,7 @@ const TopBar = () => {
                 <div className='date'>{formatDate(currentDateTime)}</div>
                 <div className='time'>{formatTime(currentDateTime)}</div>
             </div>
-        </nav>
+        </header>
     );
 };
 
