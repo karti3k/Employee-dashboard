@@ -14,7 +14,7 @@ const EmployeeList = ({ employees }) => {
                     <h3 className='emp-designation'>Designation</h3>
                     <div className='hours-and-changes'>
                         <h3 className='emp-hours'>No. of hours worked</h3>
-                        <h3>Changes</h3>
+                        <h3 className='emp-changes'>Changes</h3>
                     </div>
                 </div>
             </div>

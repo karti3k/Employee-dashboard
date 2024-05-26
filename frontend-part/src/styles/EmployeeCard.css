@@ -28,6 +28,13 @@
     width: 100%;
     border-radius: 3px;
 }
+.employee-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+}
 .employee-card h2{
     padding-top: 0.5em;
     padding-bottom: 0.2em;
@@ -49,4 +56,46 @@
 .eom-icon{
     width: 70%;
     height: 85%;
+}
+
+/* Responsive Design */
+/* For larger screens */
+@media (min-width: 1201px) {
+    
+}
+/* For tablets */
+@media (max-width:1024px) and (min-width: 769px) {
+    .employee-card{
+        height: 23vh;
+    }
+    .employee-card h2{
+        /* font-size: 0.5em; */
+        text-align: center;
+    }
+    .employee-card h3{
+        font-size: 0.6em;
+    }
+    .employee-card p{
+        font-size: 0.5em;
+    }
+}
+
+
+/* For smaller mobile devices */
+@media (max-width:480px) and (min-width: 320px) {
+    .employee-card{
+        height: 15vh;
+        width: 93%;
+        flex-direction: row;
+    }
+    .emp-img{
+        width: 50%;
+        height: 100%;
+    }
+    .employee-card h2,h3{
+        text-align: center;
+    }
+    .eom-icon{
+        display: none;
+    }
 }

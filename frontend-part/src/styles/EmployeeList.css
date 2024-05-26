@@ -50,3 +50,54 @@
 .emp-hours{
     width: 65%;
 }
+/* For tablets */
+@media (max-width:1024px) and (min-width: 769px) {
+    .employee-list{
+        padding-left: 0%;
+        height: max-content;
+    }
+    .emp-designation{
+        width: 40%;
+    }
+    .rank-and-name{
+        width: 35%;
+    }
+    .hours-and-changes{
+        width: 70%;
+    }
+}
+
+@media (max-width:480px) and (min-width: 320px) {
+    .employee-list{
+        width: 93%;
+        height: max-content;
+    }
+    .employee-list-bar{
+        padding-left: 0%;
+    }
+    .rank-and-name{
+        width: 35%;
+        padding-bottom: 1em;
+    }
+    .emp-rank{
+        width: 82%;
+    }
+    .employee-list-bar h3{
+        font-size: 0.75em;
+    }
+    .emp-designation{
+        width: 50%;
+    }
+    .others{
+        width: 90%;
+    }
+    .hours-and-changes{
+        width: 80%;
+    }
+    .emp-hours{
+        width: 53%;
+    }
+    .emp-changes{
+        width: 40%;
+    }
+}

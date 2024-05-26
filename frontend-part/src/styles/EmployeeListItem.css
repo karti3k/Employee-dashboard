@@ -69,3 +69,39 @@
 .employee-designation{
     width: 62%;
 }
+
+/* For tablets */
+@media (max-width:1024px) and (min-width: 769px) {
+    
+}
+@media (max-width:480px) and (min-width: 320px) {
+.employee-list-item{
+    font-size: 0.8em;
+}
+.ran-and-nam{
+    width: 26%;
+}
+.employee-rank{
+    width: 30%;
+    padding-top: 0.8em;
+}
+.employee-designation{
+    width: 100%;
+    padding-left: 0.5em;
+}
+.pic-and-name{
+    padding-right: 0.5em;
+    padding-left: 0.3em;
+}
+
+.rank-icon-pos{
+    width: 7%;
+}
+.employee-hours{
+    padding-left: 0.7em;
+}
+.employee-change{
+    padding-left: 0.9em;
+}
+
+}

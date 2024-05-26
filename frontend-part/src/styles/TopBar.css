@@ -36,3 +36,74 @@
     align-items: end;
     padding: 0.8em;
 }
+
+/* For larger screens */
+@media (min-width: 1201px) {
+    .top-bar {
+        height: 6em; /* Increase height for larger screens */
+    }
+    .logo-and-heading span h1 {
+        font-size: 1.5em; /* Increase font size for heading */
+    }
+}
+
+/* For smaller laptops */
+@media (max-width:1200px) and (min-width: 1025px) {
+    .logo-and-heading span h1 {
+        font-size: 1.5em; /* Decrease font size for heading */
+    }
+}
+
+/* For tablets */
+@media (max-width:1024px) and (min-width: 769px) {
+    .top-bar {
+        height: 4em; /* Decrease height for tablets */
+    }
+    .logo-and-heading span img {
+        width: 2.5em; /* Decrease logo size for tablets */
+    }
+    .logo-and-heading span h1{
+        font-size: 1.5em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width:768px) and (min-width: 481px) {
+    .top-bar {
+        height: 4.5em; /* Adjust height for mobile devices */
+    }
+    .logo-and-heading span img {
+        width: 2em; /* Decrease logo size for mobile devices */
+    }
+    .logo-and-heading span h1{
+        font-size: 1.3em;
+    }
+    .date-time{
+        font-size: 0.8em;
+    }
+}
+
+/* For smaller mobile devices */
+@media (max-width:480px) and (min-width: 320px) {
+    .top-bar {
+        height: 3.5em; 
+        padding-right: 0.6em;
+    }
+    .logo-and-heading span img {
+        width: 2em;
+    }
+    .logo-and-heading span h1{
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+    .top-bar{
+        padding-top: 1em;
+    }
+    .date-time{
+        font-size: 0.6em;
+    }
+    .logo-and-heading{
+        width: auto;
+        gap: 0.4em;
+    }
+}
