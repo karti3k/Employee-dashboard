@@ -1,0 +1,71 @@
+.employee-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f0f0f0; 
+    padding: 1.8em;
+    height: 2em;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85em;
+    padding-left: 2%;
+    border-bottom: 0.1px solid rgba(192, 192, 192, 0.405);
+}
+.employee-list-item.even {
+    background-color: #f0f0f0;
+}
+
+.employee-list-item.odd {
+    background-color: #ffffff;
+}
+.rank-icon{
+    width: 1.4em;
+}
+.rank-icon-pos{
+   width: 9%;
+}
+.ran-and-nam{
+    width: 36%;
+    display: flex;
+}
+.employee-rank{
+    width: 28%;
+}
+.employee-photo{
+    width: 1.2em;
+}
+.other-data{
+    /* background-color: blue; */
+    width: 61%;
+    display: flex;
+    /* gap: 8em; */
+}
+.pic-and-name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+.employee-hours-change{
+    width: 100%;
+    display: flex;
+    /* gap: 12em; */
+}
+.employee-hours{
+    width: 62%;
+}
+.caret-up-green{
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+.caret-down-red{
+    filter: invert(17%) sepia(86%) saturate(7495%) hue-rotate(356deg) brightness(96%) contrast(123%);
+
+}
+.employee-change{
+    width: 38%;
+    display: flex;
+    align-items: center;
+}
+.employee-designation{
+    width: 62%;
+}

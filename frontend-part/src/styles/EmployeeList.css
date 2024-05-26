@@ -5,7 +5,7 @@
 }
 .employee-list{
     width: 100%;
-    height: 82vh;
+    height: 76vh;
     /* background-color: blue; */
     border: 0.1px solid rgba(128, 128, 128, 0.281);
     border-radius: 3px;
@@ -14,8 +14,39 @@
     box-shadow: -6px 6px 14px #1c0ac02c;
 }
 .employee-list-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: auto;
     height: 3em;
     background-color: #1e40ae;
     border-radius: 3px;
+    padding-left: 10%;
+}
+.employee-list-bar h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.85em;
+}
+.rank-and-name{
+    width: 36%;
+    display: flex;
+}
+.emp-rank{
+    width: 22%;
+}
+.hours-and-changes{
+    display: flex;
+    width: 100%;
+}
+.others{
+    width: 60%;
+    display: flex;
+}
+.emp-designation{
+    width: 63%;
+}
+.emp-hours{
+    width: 65%;
 }
