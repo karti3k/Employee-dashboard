@@ -7,6 +7,8 @@ import r2 from '../assets/img/r2.png';
 import r3 from '../assets/img/r3.png';
 
 const EmployeeListItem = ({ rank, employee, isEven }) => {
+
+    // Function to get the appropriate rank icon based on the rank
     const getRankIcon = () => {
         if (rank === 1) {
             return <img src={r1} alt="Rank 1" className="rank-icon" />;
@@ -21,7 +23,10 @@ const EmployeeListItem = ({ rank, employee, isEven }) => {
 
     return (
         <div className={`employee-list-item ${isEven ? 'even' : 'odd'}`}>
+            {/* Render the rank icon */}
             <div className='rank-icon-pos'>{getRankIcon()}</div>
+
+            {/* Render the rank number, employee photo, and name */}
             <div className='ran-and-nam'>
                 <div className='employee-rank'>{rank}</div>
                 <span className='pic-and-name'>
@@ -29,11 +34,15 @@ const EmployeeListItem = ({ rank, employee, isEven }) => {
                     <div className="employee-name">{employee.name}</div>
                 </span>
             </div>
+
+            {/* Render employee designation, hours worked, and change in hours */}
             <div className='other-data'>
                 <div className="employee-designation">{employee.designation}</div>
                 <div className="employee-hours-change">
                     <span className='employee-hours'>7({employee.hoursWorked})</span>
                     <span className="employee-change">
+
+                        {/* Render the appropriate caret icon according to change in hours */}
                         {employee.changeInHours > 0.5 ? (
                             <>
                                 <img src={CarretUpIcon} alt="Carret Up" className='caret-up-green' />
@@ -45,6 +54,8 @@ const EmployeeListItem = ({ rank, employee, isEven }) => {
                                 {employee.changeInHours} hrs
                             </>
                         )}
+
+                        
                     </span>
                 </div>
             </div>

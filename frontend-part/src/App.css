@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* for responsive design (mobile devices) */
 @media (max-width:480px) and (min-width: 320px) {
     .main-content{
         flex-direction: column-reverse;

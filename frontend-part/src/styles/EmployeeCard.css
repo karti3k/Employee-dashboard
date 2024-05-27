@@ -1,3 +1,4 @@
+/* custom fonts */
 @font-face {
     font-family: Roboto;
     src: url('../assets/font/Roboto-Medium.ttf');
@@ -8,6 +9,8 @@
     src: url('../assets/font/Roboto-Thin.ttf');
     font-weight: 100;
 }
+
+/* Styles for the EmployeeCard component */
 .employee-card{
     display: flex;
     flex-direction: column;
@@ -24,10 +27,14 @@
     padding: 0.5em;
     gap: 0.2em;
 }
+
+/* Styles for the employee image */
 .emp-img{
     width: 100%;
     border-radius: 3px;
 }
+
+/* Styles for text content within the employee card */
 .employee-card div{
     display: flex;
     flex-direction: column;
@@ -53,16 +60,14 @@
     font-weight: 100;
     font-size: 0.65em;
 }
+
+/* Styling for the Employee of the Month icon */
 .eom-icon{
     width: 70%;
     height: 85%;
 }
 
 /* Responsive Design */
-/* For larger screens */
-@media (min-width: 1201px) {
-    
-}
 /* For tablets */
 @media (max-width:1024px) and (min-width: 769px) {
     .employee-card{

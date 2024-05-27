@@ -3,11 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* custom font */
 @font-face {
     font-family: Roboto;
     src: url('../assets/font/Roboto-Regular.ttf');
     font-weight: 400;
 }
+
+/* Styles for the top bar component */
 .top-bar{
     width: auto;
     height: 5em;
@@ -16,19 +20,27 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Styles for the logo and heading section within the top bar */
 .logo-and-heading{
     display: flex;
     align-items: center;
     gap: 0.8em;
     padding: 0.8em;
 }
+
+/* Styling the heading (h1) within the logo-and-heading span */
 .logo-and-heading span h1{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
 }
+
+/* Styling the logo image within the logo-and-heading span */
 .logo-and-heading span img{
     width: 3em;
 }
+
+/* Styles for the date and time display within the top bar */
 .date-time{
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -37,30 +49,31 @@
     padding: 0.8em;
 }
 
+/*adding Responsiveness */
 /* For larger screens */
 @media (min-width: 1201px) {
     .top-bar {
-        height: 6em; /* Increase height for larger screens */
+        height: 6em; 
     }
     .logo-and-heading span h1 {
-        font-size: 1.5em; /* Increase font size for heading */
+        font-size: 1.5em; 
     }
 }
 
 /* For smaller laptops */
 @media (max-width:1200px) and (min-width: 1025px) {
     .logo-and-heading span h1 {
-        font-size: 1.5em; /* Decrease font size for heading */
+        font-size: 1.5em; 
     }
 }
 
 /* For tablets */
 @media (max-width:1024px) and (min-width: 769px) {
     .top-bar {
-        height: 4em; /* Decrease height for tablets */
+        height: 4em; 
     }
     .logo-and-heading span img {
-        width: 2.5em; /* Decrease logo size for tablets */
+        width: 2.5em; 
     }
     .logo-and-heading span h1{
         font-size: 1.5em;
