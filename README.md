@@ -23,10 +23,9 @@ The Employee-dashboard is a React.js-based web application designed to visualize
    
 - **src/assets:** Stores assets such as company logos, employee profile pictures, and SVG icons used within the application.
 
-## Project Status:
+## Why this Project?:
 
-This project is part of an internship training program and focuses on developing the front-end part of the Employee Activity Dashboard. It's designed to showcase fundamental concepts of React.js development, including component-based architecture, state management, responsive design principles, and component reusability.
-
+It's developed to understand the fundamental concepts of React.js development, including component-based architecture, state management, responsive design principles, and component reusability.
 ## Screenshot:
 
 ![Screenshot (792)](https://github.com/karti3k/react-project-practice/assets/97697722/903c3228-be12-4a39-908c-b5323f40e3b3)
